@@ -87,7 +87,7 @@ async def start_(c: Client, message: Message):
         return
     await message.reply_text(
         f"""₪👋🏻**Hello, {message.from_user.mention()} !**\n
-₪ [{me_bot.first_name}](https://t.me/{BOT_USERNAME}) **Is a bot to play music and video in groups, through the Telegram Group video chat!𝄞**
+₪ [{me_bot.first_name}](https://t.me/{BOT_USERNAME}) **Is a bot to play music and video in groups, through the Telegram Group video chat!𝄞.**
 ₪ **Find out all the Bot's commands and how they work by clicking on the » ◍⌊Commands⌉ button!**
 ₪ **To know how to use this bot, please click on the » ◍⌊Guide⌉ button!**""",
                 reply_markup=InlineKeyboardMarkup(
